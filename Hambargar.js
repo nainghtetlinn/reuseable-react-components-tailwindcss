@@ -12,9 +12,9 @@ const Hambargar = ({ isOpen, toggle }) => {
           id="hambargar"
           className="hidden peer"
         />
-        <span className="bg-primary h-[3px] rounded-full transition-all duration-300 origin-left peer-checked:rotate-45"></span>
-        <span className="bg-primary h-[3px] rounded-full transition-all duration-300 origin-left peer-checked:opacity-0"></span>
-        <span className="bg-primary h-[3px] rounded-full transition-all duration-300 origin-left peer-checked:-rotate-45"></span>
+        <span className="bg-white h-[3px] rounded-full transition-all duration-300 origin-left peer-checked:rotate-45"></span>
+        <span className="bg-white h-[3px] rounded-full transition-all duration-300 origin-left peer-checked:opacity-0"></span>
+        <span className="bg-white h-[3px] rounded-full transition-all duration-300 origin-left peer-checked:-rotate-45"></span>
       </label>
     </div>
   )
